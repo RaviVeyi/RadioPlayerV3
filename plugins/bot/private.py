@@ -29,7 +29,7 @@ CHAT_ID=Config.CHAT_ID
 playlist=Config.playlist
 LOG_GROUP=Config.LOG_GROUP
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @AsmSafone 😉!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @Rexxuxxxnx 😉!"
 HELP_TEXT = """
 💡 --**Setting Up**--:
 
@@ -46,24 +46,24 @@ HELP_TEXT = """
 
 💡 --**Admins Commands**--:
 
-\u2022 `/radio` - start radio stream
-\u2022 `/stopradio` - stop radio stream
-\u2022 `/skip` - skip current music
-\u2022 `/join` - join the voice chat
-\u2022 `/leave` - leave the voice chat
-\u2022 `/stop` - stop playing music
-\u2022 `/volume` - change volume (0-200)
+\u2022 `/radio` - Radionu başlat
+\u2022 `/stopradio` - Canlı radionu dayandır
+\u2022 `/skip` - mahnını keç
+\u2022 `/join` - Məni səsli söhbətə dəvət et
+\u2022 `/leave` - məni səsli söhbətdən çxart
+\u2022 `/stop` - mahnını dayandır
+\u2022 `/volume` - səs keyfiyyətini dəyişdir (0-200)
 \u2022 `/replay` - play from the beginning
 \u2022 `/clean` - remove unused raw files
-\u2022 `/pause` - pause playing music
-\u2022 `/resume` - resume playing music
-\u2022 `/mute` - mute the vc userbot
-\u2022 `/unmute` - unmute the vc userbot
-\u2022 `/restart` - update & restart the bot
+\u2022 `/pause` - mahnını dayandır
+\u2022 `/resume` - musiqi çalmağa davam edin
+\u2022 `/mute` - mahnı səsini kəs
+\u2022 `/unmute` - mahnı səsini aç
+\u2022 `/restart` - botu yenidən başlat
 \u2022 `/setvar` - set/change heroku configs
 
 © **Powered By** : 
-**@AsmSafone | @AsmSupport** 👑
+**@AsmSafone | @Alay57Chat** 👑
 """
 
 
@@ -197,8 +197,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("ƏLAQƏ", url="https://t.me/Rexxuxxxnx"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/Alay57Chat"),
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
@@ -224,8 +224,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/Alay57Chat"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/Alay57Chat"),
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
@@ -262,11 +262,11 @@ async def start(client, message):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/Alay57Chat"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/Alay57Chat"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
+                InlineKeyboardButton("DEVELOPER", url="https://t.me/Rexxuxxxnx"),
                 InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
             ],
             [
@@ -286,8 +286,8 @@ async def help(client, message):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHAT", url="https://t.me/Alay57Chat"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/Alay57Chat"),
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
