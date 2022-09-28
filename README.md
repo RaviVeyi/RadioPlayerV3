@@ -89,7 +89,7 @@ $ python3 main.py
 ## License
 ```sh
 RadioPlayerV3, Telegram Voice Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+Copyright (c) 2021  Asm Safone <https://github.com/Raviveyis>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -107,8 +107,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 ## Credits
 
-- [Me](https://github.com/AsmSafone) for [Noting](https://github.com/AsmSafone/RadioPlayerV3) 😬
+- [Me](https://github.com/Raviveyis) for [Noting](https://github.com/Raviveyis/RadioPlayerV3) 😬
 - [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram) ❤️
 - [MarshalX](https://github.com/MarshalX) for [pytgcalls](https://github.com/MarshalX/tgcalls) ❤️
-- And Thanks To All [Contributors](https://github.com/AsmSafone/RadioPlayerV3/graphs/contributors)! ❤️
+- And Thanks To All [Contributors](https://github.com/Raviveyis/RadioPlayerV3/graphs/contributors)! ❤️
 
