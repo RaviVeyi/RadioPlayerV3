@@ -1,6 +1,6 @@
 """
 RadioPlayerV3, Telegram Voice Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+Copyright (c) 2021  Asm Safone <https://github.com/Raviveyis>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -49,7 +49,7 @@ async def main():
     async with bot:
         await mp.start_radio()
         try:
-            await USER.join_chat("AsmSafone")
+            await USER.join_chat("@lovelesslifee")
         except UserAlreadyParticipant:
             pass
         except Exception as e:
@@ -65,7 +65,7 @@ def stop_and_restart():
 
 bot.run(main())
 bot.start()
-print("\n\nRadio Player Bot Started, Join @AsmSafone!")
+print("\n\nVanessa Music bot başladı, Qoşulun @lovelesslifee!")
 bot.send(
     SetBotCommands(
         scope=BotCommandScopeDefault(),
@@ -73,83 +73,83 @@ bot.send(
         commands=[
             BotCommand(
                 command="start",
-                description="Start The Bot"
+                description="Botu başlatmaq"
             ),
             BotCommand(
                 command="help",
-                description="Show Help Message"
+                description="Kömek Mesajını Gösterin"
             ),
             BotCommand(
                 command="play",
-                description="Play Music From YouTube"
+                description="You Tube-den musiqi oxudun"
             ),
             BotCommand(
                 command="song",
-                description="Download Music As Audio"
+                description="Musiqini Audio Fayl Kimi Yükleyin"
             ),
             BotCommand(
                 command="skip",
-                description="Skip The Current Music"
+                description="Cari Musiqini Keçin"
             ),
             BotCommand(
                 command="pause",
-                description="Pause The Current Music"
+                description="Cari Musiqini Dayandırın"
             ),
             BotCommand(
                 command="resume",
-                description="Resume The Paused Music"
+                description="Dayanmış Musiqini Başladın"
             ),
             BotCommand(
                 command="radio",
-                description="Start Radio / Live Stream"
+                description="Radio / Canlı Yayımı başladın"
             ),
             BotCommand(
                 command="current",
-                description="Show Current Playing Song"
+                description="Mövcud ifa olunan mahnını gösterin"
             ),
             BotCommand(
                 command="playlist",
-                description="Show The Current Playlist"
+                description="Cari çalğı siyahısını gösterin"
             ),
             BotCommand(
                 command="join",
-                description="Join To The Voice Chat"
+                description="Sesli Çata qoşun"
             ),
             BotCommand(
                 command="leave",
-                description="Leave From The Voice Chat"
+                description="Sesli Çatdan Ayırın"
             ),
             BotCommand(
                 command="stop",
-                description="Stop Playing The Music"
+                description="Musiqini dayandır"
             ),
             BotCommand(
                 command="stopradio",
-                description="Stop Radio / Live Stream"
+                description="Radio / Canlı Yayımı dayandırın"
             ),
             BotCommand(
                 command="replay",
-                description="Replay From The Begining"
+                description="Başlanğıcdan Tekrar"
             ),
             BotCommand(
                 command="clean",
-                description="Clean Unused RAW PCM Files"
+                description="İstifade edilmemiş RAW PCM fayllarını temizleyin"
             ),
             BotCommand(
                 command="mute",
-                description="Mute Userbot In Voice Chat"
+                description="Sesli söhbetde userbotu susdur"
             ),
             BotCommand(
                 command="unmute",
-                description="Unmute Userbot In Voice Chat"
+                description="Sesli söhbetde userbotun sesini aç"
             ),
             BotCommand(
                 command="volume",
-                description="Change The Voice Chat Volume"
+                description="Sesli Söhbet Sesini Deyişin"
             ),
             BotCommand(
                 command="restart",
-                description="Update & Restart Bot (Owner Only)"
+                description="Yenile & Botu Yeniden başlat (Yalnız Adminler Üçün)"
             ),
             BotCommand(
                 command="setvar",
@@ -167,7 +167,7 @@ async def restart(_, message: Message):
         await k.edit("🔄 **Heroku Detected, \nRestarting Your App...**")
         Config.HEROKU_APP.restart()
     else:
-        await k.edit("🔄 **Restarting, Please Wait...**")
+        await k.edit("🔄 **Yeniden başlatmaq üçün gözleyin...**")
         process = FFMPEG_PROCESSES.get(CHAT_ID)
         if process:
             try:
@@ -182,11 +182,11 @@ async def restart(_, message: Message):
             target=stop_and_restart()
             ).start()
     try:
-        await k.edit("✅ **Restarted Successfully! \nJoin @AsmSafone For Update!**")
+        await k.edit("✅ **Uğurla yeniden başladıldı! \nYenileme üçün @lovelesslifee-a qoşulun!**")
         await k.reply_to_message.delete()
     except:
         pass
 
 idle()
-print("\n\nRadio Player Bot Stopped, Join @AsmSafone!")
+print("\n\nVanessa Music Bot Dayandı, Qoşulmaq üçün @lovelesslifee!")
 bot.stop()
