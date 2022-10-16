@@ -570,7 +570,7 @@ async def not_chat(_, m: Message):
                 InlineKeyboardButton("SUPPORT", url="https://t.me/lovelesslifee"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/RaviVeyi/RadioPlayerV3"),
             ]
          ]
     k=await m.reply_photo(photo="https://telegra.ph/file/4e839766d45935998e9c6.jpg", caption="**Sorry, You Can't Bu Qrupda sen botu istifade ede bilmersen! 🤷‍♂️ But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/Raviveyis/RadioPlayerV3) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
