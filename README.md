@@ -1,14 +1,14 @@
 # Telegram Radio Player V3 [![Mentioned in Awesome Telegram Calls](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/tgcalls/awesome-tgcalls)
-![GitHub Repo stars](https://img.shields.io/github/stars/Raviveyis/RadioPlayerV3?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/Raviveyis/RadioPlayerV3?color=green&style=flat)
-![GitHub issues](https://img.shields.io/github/issues/Raviveyis/RadioPlayerV3)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/Raviveyis/RadioPlayerV3)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Raviveyis/RadioPlayerV3)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Raviveyis/RadioPlayerV3)
-![GitHub contributors](https://img.shields.io/github/contributors/Raviveyis/RadioPlayerV3?style=flat)
-![GitHub repo size](https://img.shields.io/github/repo-size/Raviveyis/RadioPlayerV3?color=red)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Raviveyis/RadioPlayerV3)
-![GitHub](https://img.shields.io/github/license/Raviveyis/RadioPlayerV3)
+![GitHub Repo stars](https://img.shields.io/github/stars/RaviVeyi/RadioPlayerV3?color=blue&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/RaviVeyi/RadioPlayerV3?color=green&style=flat)
+![GitHub issues](https://img.shields.io/github/issues/RaviVeyi/RadioPlayerV3)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/RaviVeyi/RadioPlayerV3)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/RaviVeyi/RadioPlayerV3)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/RaviVeyi/RadioPlayerV3)
+![GitHub contributors](https://img.shields.io/github/contributors/RaviVeyi/RadioPlayerV3?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/RaviVeyi/RadioPlayerV3?color=red)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/RaviVeyi/RadioPlayerV3)
+![GitHub](https://img.shields.io/github/license/RaviVeyi/RadioPlayerV3)
 [![Bot Updates](https://img.shields.io/badge/RadioPlayerV3-Updates%20Channel-green)](https://t.me/lovelesslifee)
 [![Bot Support](https://img.shields.io/badge/RadioPlayerV3-Support%20Group-blue)](https://t.me/lovelesslifee)
 
@@ -16,7 +16,7 @@
 An Advanced Telegram Bot to Play Nonstop Radio/Music/YouTube Live in Channel or Group Voice Chats.
 
 This is also the source code of the bot which is being used for playing
-Radio in [BenimKiller](https://t.me/lovelesslifee) Channel & Music in [VanessaSupport](https://t.me/lovelesslifee) Group.
+Radio in [BenimKiller](https://t.me/lovelesslifee) Channel & Music in [FastSupport](https://t.me/lovelesslifee) Group.
 
 ## Special Features
 
