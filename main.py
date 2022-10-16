@@ -65,7 +65,7 @@ def stop_and_restart():
 
 bot.run(main())
 bot.start()
-print("\n\nVanessa Music bot başladı, Qoşulun @lovelesslifee!")
+print("\n\nFast Music bot başladı, Qoşulun @lovelesslifee!")
 bot.send(
     SetBotCommands(
         scope=BotCommandScopeDefault(),
@@ -188,5 +188,5 @@ async def restart(_, message: Message):
         pass
 
 idle()
-print("\n\nVanessa Music Bot Dayandı, Qoşulmaq üçün @lovelesslifee!")
+print("\n\nFast Music Bot Dayandı, Qoşulmaq üçün @lovelesslifee!")
 bot.stop()
